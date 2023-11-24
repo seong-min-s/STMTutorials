@@ -61,6 +61,7 @@ void Error_Handler(void);
 #define LD2_GPIO_Port GPIOA
 #define Switch_Pin GPIO_PIN_13
 #define Switch_GPIO_Port GPIOA
+#define Switch_EXTI_IRQn EXTI15_10_IRQn
 
 /* USER CODE BEGIN Private defines */
 
